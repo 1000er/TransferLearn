@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+    <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
+  </head>
+  <body>
+    <div id="console"></div>
+    <!-- Read images from webcam -->
+    <video autoplay playsinline muted id="webcam" width="224" height="224"></video>
+    <!-- Add Buttom for each class -->
+    <button id="class-one">Add One Example</button>
+    <button id="class-two">Add Two Example</button>
+    <button id="class-three">Add Three Example</button>
+    <button id="class-four">Add Four Example</button>
+    <button id="class-no action">Add No Action Example</button>
+    <!-- Load index.js after the content of the page -->
+    <script src="index.js"></script>
+  </body>
+</html>
